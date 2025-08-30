@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+nav a {
+  position: relative;
+  padding: 0.5rem;
+  transition: color 0.3s;
+}
+nav a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background: white;
+  transition: width 0.3s;
+}
+nav a:hover::after {
+  width: 100%;
+}
+.btn {
+  background: #fff;
+  color: #007A91; /* tu color azul */
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.btn:hover {
+  background: #f4f4f4;
+}
+nav {
+  background: rgba(0, 122, 145, 0.95); /* semitransparente */
+  backdrop-filter: blur(5px); /* difuminado */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
