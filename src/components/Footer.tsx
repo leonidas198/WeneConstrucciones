@@ -9,7 +9,7 @@ export const Footer = () => {
         
         {/* Información de la empresa */}
         <div>
-          <h3 className="text-lg font-semibold">Wene Construcciones SRL</h3>
+          <h3 className="text-lg font-semibold">Aresle Construcciones SRL</h3>
           <p className="mt-2 text-gray-200">
             Más de 30 años brindando soluciones en construcción civil e industrial,
             con compromiso, innovación y calidad.
@@ -20,7 +20,7 @@ export const Footer = () => {
         <div>
           <h3 className="text-lg font-semibold">Contacto</h3>
           <p className="mt-2 flex items-center justify-center md:justify-start gap-2">
-            <FaEnvelope /> weneconstrucciones@gmail.com
+            <FaEnvelope /> areslecomercial@outlook.com
           </p>
           <p className="mt-1 flex items-center justify-center md:justify-start gap-2">
             <FaPhone /> +54 9 299-5873256
@@ -38,7 +38,7 @@ export const Footer = () => {
           <h3 className="text-lg font-semibold">Síguenos</h3>
           <div className="flex justify-center md:justify-start gap-4 mt-2">
             <a
-              href="https://www.linkedin.com/company/wene-srl"
+              href="https://www.linkedin.com/company/aresle"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-gray-300 transition"
@@ -46,7 +46,7 @@ export const Footer = () => {
               <FaLinkedin size={24} />
             </a>
             <a
-              href="https://www.instagram.com/wene_construcciones_srl"
+              href="https://www.instagram.com/aresle_srl"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-gray-300 transition"
@@ -74,14 +74,14 @@ export const Footer = () => {
 
       {/* Datos legales */}
       <div className="max-w-6xl mx-auto mt-10 px-6 text-center md:text-left text-sm text-gray-300">
-        <p><strong>CUIT:</strong> 30-71766104-0</p>
+        <p><strong>CUIT:</strong> 33-71602800-9</p>
         <p><strong>Dirección:</strong> Acceso Güemes y ruta 65, Allen, Provincia de Rio Negro, Argentina</p>
         <p><strong>IVA:</strong> Responsable Inscripto</p>
       </div>
 
       {/* Línea inferior */}
       <div className="text-center mt-6 border-t border-cyan-600 pt-4 text-sm text-gray-200">
-        <p>&copy; {new Date().getFullYear()} Wene Construcciones SRL. Todos los derechos reservados.</p>
+        <p>&copy; {new Date().getFullYear()} Aresle Construcciones SRL. Todos los derechos reservados.</p>
       </div>
     </footer>
   );

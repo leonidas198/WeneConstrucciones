@@ -29,7 +29,7 @@ export default function WhatsappChat() {
                 className="w-8 h-8 rounded-lg object-cover"
               />
               <div>
-                <p className="font-semibold leading-tight">Wene Construcciones SRL</p>
+                <p className="font-semibold leading-tight">Aresle Construcciones SRL</p>
                 <p className="text-xs text-cyan-100 leading-tight">
                   Respuesta rápida en horario laboral
                 </p>
@@ -47,7 +47,7 @@ export default function WhatsappChat() {
 
           <div className="px-4 py-3 text-sm text-gray-700">
             <p className="mb-3">
-              ¡Hola! 👋 Somos Wene Construcciones SRL. Contanos en qué te ayudamos
+              ¡Hola! 👋 Somos Aresle Construcciones SRL. Contanos en qué te ayudamos
               (módulos, galpones o casas) y un asesor te responde por WhatsApp.
             </p>
             <textarea

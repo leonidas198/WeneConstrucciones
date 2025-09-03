@@ -8,7 +8,7 @@ export const Contacto = () => {
     mensaje: "",
   });
   useEffect(() => {
-      document.title = "Contacto | Wene Construcciones SRL";
+      document.title = "Contacto | Aresle Construcciones SRL";
     }, []);
 
   const [estado, setEstado] = useState<"enviando" | "enviado" | "error" | "">("");

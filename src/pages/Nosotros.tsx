@@ -2,7 +2,7 @@ import { useEffect } from "react";
 
 export const Nosotros = () => {
   useEffect(() => {
-    document.title = "Sobre Nosotros | Wene Construcciones SRL";
+    document.title = "Sobre Nosotros | Aresle Construcciones SRL";
   }, []);
 
   return (
@@ -10,7 +10,7 @@ export const Nosotros = () => {
       <h2 className="text-3xl font-bold text-gray-200">Quiénes Somos</h2>
 
       <p className="mt-4 text-gray-300 leading-relaxed">
-        Somos Wene Construcciones SRL, una compañía con más de 30 años de
+        Somos Aresle Construcciones SRL, una compañía con más de 30 años de
         experiencia en el sector de la construcción, reconocida por nuestra
         solidez, compromiso y la confianza que cientos de clientes han
         depositado en nosotros a lo largo de tres décadas. Desde nuestros
@@ -40,7 +40,7 @@ export const Nosotros = () => {
       <p className="mt-4 text-gray-300 leading-relaxed">
         Hace más de tres décadas, en un contexto donde la construcción era un
         desafío lleno de obstáculos, Efrain decidió apostar por sus sueños y
-        fundar lo que hoy es Wene Construcciones SRL. Con un pequeño equipo,
+        fundar lo que hoy es Aresle Construcciones SRL. Con un pequeño equipo,
         herramientas básicas y mucha determinación, comenzó a levantar los
         primeros proyectos que rápidamente se destacaron por su calidad y
         cumplimiento en los plazos.
@@ -74,7 +74,7 @@ export const Nosotros = () => {
       </div>
 
       <p className="mt-4 text-gray-300 leading-relaxed">
-        En Wene Construcciones SRL creemos que la construcción no se trata solo
+        En Aresle Construcciones SRL creemos que la construcción no se trata solo
         de levantar paredes o estructuras, sino de construir confianza y
         relaciones duraderas. Nuestra filosofía se basa en tres pilares
         fundamentales:
@@ -112,7 +112,7 @@ export const Nosotros = () => {
       </p>
 
       <p className="mt-4 text-gray-300 leading-relaxed">
-        En Wene Construcciones SRL, no solo construimos casas, galpones o
+        En Aresle Construcciones SRL, no solo construimos casas, galpones o
         módulos: construimos futuro, seguridad y confianza.
       </p>
     </section>

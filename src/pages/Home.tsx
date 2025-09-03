@@ -5,7 +5,7 @@ import GalleryModal from "../components/GalleryModal";
 
 export const Home = () => {
   useEffect(() => {
-    document.title = "Inicio | Wene Construcciones SRL";
+    document.title = "Inicio | Aresle Construcciones SRL";
   }, []);
 
   const [openGallery, setOpenGallery] = useState<
